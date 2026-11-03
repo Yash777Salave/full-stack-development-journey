@@ -1,0 +1,15 @@
+*{
+    background-color:red;
+}
+
+h1{
+    background-color:black;
+    color:red;
+}
+#mypara{
+    background-color:orange;
+}
+.span{
+    color:purple;
+    font-size:40px;
+}

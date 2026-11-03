@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- here internal CSS -->
+    <!-- also we have 3 selectors
+     1) tag \ element selectors
+     2) ID selectors
+     3) Class Selectors -->
+
+    <!-- this is google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kavoon&family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* 1) tag\ Element Selectors */
+      h1 {
+        color: red;
+        text-align: center;
+        font-weight: bold;
+        font-size: xx-large;
+        font-family:
+          Russo One,
+          sans-serif;
+      }
+      hr {
+        color: seagreen;
+      }
+
+      /* ID selectors */
+      #span {
+        font-family:
+          "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+        color: blueviolet;
+        font-weight: 600;
+      }
+      #menuTitle {
+        color: brown;
+        font-weight: 600;
+        text-align: center;
+      }
+
+      /* Class Selectors */
+      .menuItemsContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+      }
+      .menuItems {
+        color: red;
+        font-size: large;
+        line-height: 30px;
+        font-family: Kavoon;
+      }
+      .orderNow {
+        color: brown;
+        font-weight: 600;
+        text-align: center;
+      }
+      .inputStyle {
+        border-radius: 5px;
+        border-color: tomato;
+        padding: 8px;
+        width: 340px;
+        margin: 8px;
+      }
+      .formContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .orderButton {
+        width: 200px;
+        border-radius: 5px;
+        border: none;
+        padding: 10px;
+        background-color: tomato;
+        color: aliceblue;
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Yash Cake Shop</h1>
+    <hr />
+    <span id="span"
+      >Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum inventore
+      libero sit, nesciunt praesentium cumque quaerat ipsum corporis error
+      accusantium, repellendus quas reiciendis velit expedita impedit harum.
+      Iste, necessitatibus similique! Error nisi quaerat illum id, maxime odio
+      recusandae natus esse dolorum excepturi facilis? Mollitia ex recusandae
+      aliquam est, blanditiis quis earum saepe, voluptatum aperiam, alias libero
+      facere quos labore repudiandae?similique! Error nisi quaerat illum id,
+      maxime odio recusandae natus esse dolorum excepturi facilis? Mollitia ex
+      recusandae aliquam est, blanditiis quis earum saepe, voluptatum aperiam,
+      alias libero facere quos labore repudiandaesimilique! Error nisi quaerat
+      illum id, maxime odio recusandae natus esse dolorum excepturi facilis?
+      Mollitia ex recusandae aliquam est, blanditiis quis earum saepe,
+      voluptatum aperiam, alias libero facere quos labore repudiandaesimilique!
+      Error nisi quaerat illum id, maxime odio recusandae natus esse dolorum
+      excepturi facilis? Mollitia ex recusandae aliquam est, blanditiis quis
+      earum saepe, voluptatum aperiam, alias libero facere quos labore
+      repudiandaesimilique! Error nisi quaerat illum id, maxime odio recusandae
+      natus esse dolorum excepturi facilis? Mollitia ex recusandae aliquam est,
+      blanditiis quis earum saepe, voluptatum aperiam, alias libero facere quos
+      labore repudiandaesimilique! Error nisi quaerat illum id, maxime odio
+      recusandae natus esse dolorum excepturi facilis? Mollitia ex recusandae
+      aliquam est, blanditiis quis earum saepe, voluptatum aperiam, alias libero
+      facere quos labore repudiandaesimilique! Error nisi quaerat illum id,
+      maxime odio recusandae natus esse dolorum excepturi facilis? Mollitia ex
+      recusandae aliquam est, blanditiis quis earum saepe, voluptatum aperiam,
+      alias libero facere quos labore repudiandae</span
+    >
+    <hr />
+    <h2 id="menuTitle">Our Menus</h2>
+    <div class="menuItemsContainer menuItems">
+      <ul>
+        <li>Cake</li>
+        <li>Biscuit</li>
+        <li>Chocolate</li>
+        <li>Pastries</li>
+      </ul>
+      <ul>
+        <li>Anniversery Cake</li>
+        <li>Bun</li>
+        <li>Jalebies</li>
+        <li>Chocolate crackers</li>
+      </ul>
+    </div>
+    <hr />
+    <h2 class="orderNow">Order Now</h2>
+    <form class="formContainer">
+      <input type="text" placeholder="Enter Menu Name" class="inputStyle" />
+      <input placeholder="Enter Address" type="text" class="inputStyle" />
+      <button class="orderButton">Order</button>
+    </form>
+  </body>
+</html>
