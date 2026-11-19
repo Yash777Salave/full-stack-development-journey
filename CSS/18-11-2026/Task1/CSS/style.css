@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.first-div-parent {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.first-div-child {
+  height: 300px;
+  width: 60%;
+  background-color: #ff0000;
+}
+.o-margin {
+  margin-right: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .first-div-child {
+    height: 300px;
+    width: 40%;
+    display: inline-block;
+  }
+  .o-margin {
+    margin-right: 20px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .first-div-child {
+    height: 300px;
+    width: 20%;
+    display: inline-block;
+  }
+  .o-margin {
+    margin-right: 60px;
+  }
+}
