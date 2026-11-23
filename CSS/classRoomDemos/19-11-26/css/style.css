@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: "poppins",sans-serif;
+}
+.main{
+    display:flex;
+    width:80%;
+    margin:40px auto;
+    border:3px solid #000;
+    height:500px;
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    /* justify-content: space-between; */
+    /* align-items:flex-start; */
+    /* align-items:flex-end; */
+    /* align-items:center; */
+    /* justify-content */
+    /* align-items */
+
+    /* flex-wrap:nowrap */
+    /* flex-wrap:wrap; */
+    /* flex-wrap:wrap-reverse; */
+    /* gap:10px; */
+
+    /* flex-direction:column; */
+    /* flex-direction:row-reverse; */
+    /* flex-direction:column-reverse; */
+
+    /* row,column */
+
+
+}
+.sizing{
+    width:180px;
+    /* height:300px; */
+    height:50px;
+    display:inline-block;
+}
+.one{
+    background:red;
+}
+.two{
+    background:blue;
+    order:1;
+}
+.three{
+    background:orange;
+    order:2;
+}
+.four{
+    background:yellow;
+    /* align-self:center; */
+    /* align-self:flex-end; */
+    /* align-self:flex-start; */
+
+}
+.five{
+    background:purple;
+}
+.six{
+    background:green;
+}
+
+
+.wrapper h2{
+    text-align: center;
+    padding:0 5px;
+    text-transform: capitalize;
+    width:80%;
+    margin:0 auto;
+}
+
+.sub-header{
+    margin-top:50px;
+    text-align:center;
+    display:block;
+    color:#676464;
+}
+.parent{
+    margin-top:20px;
+    /* background:url(https://images.pexels.com/photos/35519304/pexels-photo-35519304.jpeg?_gl=1*apabo8*_ga*MTczNTc4NjMxMy4xNjYxMjM3NjQ2*_ga_8JE65Q40S6*czE3OTUwOTE0MjMkbzE3NyRnMCR0MTc5NTA5MTQyMyRqNjAkbDAkaDA.) */
+}
+
+
+.service{
+    width:70%;
+    margin:10px auto;
+    /* border:1px solid #000; */
+    padding:20px;
+    box-sizing:border-box;
+    border-radius:20px;
+    /* box-sizing:content-box; */
+    box-shadow:0px 0px 5px 2px rgba(0,0,0,0.1);
+}
+.service p{
+    color:#676464;
+    font-size:14px;
+}
+.icon{
+    display:flex;
+    width:25px;
+    height:25px;
+    justify-content: center;
+    align-items: center;
+    background:rgba(0,0,0,0.1);
+    border:1px solid rgba(0,0,0,0.2);
+}
+
+@media (min-width:768px){
+    .parent{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap:10px;
+    }
+    .service{
+        width:40%;
+        margin:0;
+    }
+    .section-header span{
+        display:block;
+    }
+}
+
+@media (min-width:992px){
+    .service{
+        width:20%;
+    }
+}

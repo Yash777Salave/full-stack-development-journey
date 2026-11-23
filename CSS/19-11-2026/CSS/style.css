@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Google Sans", sans-serif;
+}
+/* .img {
+  height: 500px;
+  width: 100%;
+} */
+.header {
+  background: url("../images/img1.jpg");
+  height: 300px;
+  /* width: 100%; */
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  /* justify-content: center;
+  align-items: flex-end; */
+  color: white;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 20px;
+}
+.heading {
+  font-size: 17px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.sub-heading {
+  text-align: center;
+}
+.second-heading {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 300;
+}
+.second-Subheading {
+  text-align: center;
+  color: gray;
+  margin-top: 16px;
+  display: block;
+}
+.band-info {
+  text-align: justify;
+  line-height: 22px;
+  margin: 20px auto;
+  width: 90%;
+}
+.img-container {
+  height: 300px;
+  width: 200px;
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: center; */
+  display: block;
+}
+.image-heading {
+  text-align: center;
+  margin: 10px 10px;
+}
+.container {
+  /* align-self: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sub-img {
+  border-radius: 5px;
+}
+.tour-dates-container {
+  background: black;
+  width: 100%;
+}
+.tour-dates-subHeading {
+  text-align: center;
+  color: gray;
+  margin-top: 16px;
+}
+.tour-dates-heading {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 300;
+  padding-top: 20px;
+}
+
+.info {
+  width: 90%;
+  text-align: center;
+  margin: 10px auto;
+}
+.info img {
+  width: 40%;
+  margin-top: 30px;
+}
+@media only screen and (min-width: 768px) {
+  .container {
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .wrapper-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .img-container {
+    margin: 10px;
+  }
+}
+.booking-container {
+  width: 90%;
+  margin: 10px auto;
+}
+.booking-card {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  border-top: 1px solid;
+  padding: 10px;
+  border-top-color: rgb(193, 193, 193);
+  background-color: white;
+  box-sizing: border-box;
+  height: 40px;
+}
+.month-text {
+  color: gray;
+}
+.soldOut-text {
+  padding: 2px;
+  box-sizing: border-box;
+  background: red;
+  color: white;
+  font-size: 17px;
+}
+.slot-count {
+  padding: 5px;
+  border-radius: 100%;
+  background-color: black;
+  color: white;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 25px;
+}
+.slot-card {
+  justify-content: space-between;
+}
+
+.hero-card {
+  width: 90%;
+  background-color: white;
+  margin-top: 10px;
+  margin: 10px auto;
+}
+.card-heading {
+  font-weight: bold;
+  margin: 10px;
+}
+.card-date {
+  color: grey;
+  margin: 10px;
+}
+.card-info {
+  margin: 10px;
+}
+.button {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  margin: 10px;
+}
+.section h2 {
+  text-align: center;
+  font-weight: 400;
+  margin-top: 50px;
+}
+.sub-footerHeading {
+  text-align: center;
+  color: grey;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.main,
+.band-wrapper,
+.footer,
+.tour-dates-container {
+  padding: 50px 0;
+}
+.address p {
+  display: flex;
+  gap: 10px;
+  line-height: 25px;
+  font-size: 20px;
+}
+.footer {
+  margin: 0 auto;
+}
+.footer h2 {
+  text-align: center;
+}
+.form-container {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.input-box {
+  width: 90%;
+  height: 30px;
+  margin-bottom: 8px;
+}
+.form-button {
+  align-self: flex-end;
+  display: inline-block;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-img {
+  width: 100%;
+  margin-top: 50px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.footer-address {
+  width: 90%;
+}
+.footer-icon-container {
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  gap: 10px;
+  color: gray;
+}

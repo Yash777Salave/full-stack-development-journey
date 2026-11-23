@@ -1,0 +1,50 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.mainHeading {
+  text-align: center;
+}
+.cardContainer {
+  height: 350px;
+  width: 70%;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0;
+  background-color: white;
+}
+.cardHeading {
+  text-align: center;
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+}
+.cardParagraph {
+  text-align: justify;
+  margin-top: 40px;
+}
+.wrapper {
+}
+.button {
+  padding: 8px;
+  text-align: center;
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+@media only screen and (min-width: 768px) {
+  .cardContainer {
+    width: 40%;
+  }
+  .wrapper {
+    margin: 10px 10px 10px 10px;
+    display: inline-block;
+  }
+}
