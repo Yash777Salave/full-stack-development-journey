@@ -107,6 +107,9 @@
   .img-container {
     margin: 10px;
   }
+  .hero-card {
+    width: 10%;
+  }
 }
 .booking-container {
   width: 90%;
@@ -238,4 +241,53 @@
   margin: 10px;
   gap: 10px;
   color: gray;
+}
+
+@media only screen and (min-width: 992px) {
+  .hero-card {
+    width: 30%;
+  }
+  .figcaption-conatiner {
+    display: flex;
+    width: 93%;
+    margin: 10px auto;
+  }
+  .footer h2 {
+    font-size: 30px;
+    font-weight: 200px;
+  }
+  .footer-sub-address {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .input-box {
+    width: 20%;
+    height: 30px;
+    margin-bottom: 8px;
+    padding-left: 10px;
+  }
+  .form-container {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .address {
+    gap: 10px;
+    line-height: 25px;
+    font-size: 20px;
+    width: 50%;
+  }
+  .larger-input-box {
+    width: 40%;
+  }
+  .largest-input-box {
+    width: 82%;
+  }
+  .button-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 82%;
+  }
 }

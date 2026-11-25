@@ -1,0 +1,137 @@
+:root{
+    --red:pink;
+    --blue:blue;
+    --green:green;
+}
+
+
+
+*::selection{
+    background:cyan;
+    color:black;
+}
+.dimensions{
+    width:300px;
+    height:300px;
+}
+.one{
+    background:var(--red);
+    float:left;
+    /* float:right; */
+
+}
+.two{
+    background:var(--green);
+    float:left;
+    /* float:right; */
+}
+.three{
+    background:var(--blue);
+    clear:both;
+}
+
+.main-1{
+    width:500px;
+    height:500px;
+    background:var(--red);
+}
+.main-2{
+    width:400px;
+    height:400px;
+    background:var(--blue);
+}
+.main-3{
+    width:300px;
+    height:300px;
+    background:var(--green);
+}
+.main-4{
+    width:200px;
+    height:200px;
+    background:purple;
+    /* position:relative;
+    top:400px;
+    left:600px; */
+    /* position:absolute;
+    top:300px;
+    left:400px; */
+}
+
+/* static,relative,absolute,fixed,sticky */
+
+.nav{
+    width:1200px;
+    height:60px;
+    background:purple;
+    /* position:sticky; */
+    position:fixed;
+
+    top:0px;
+    left:0;
+}
+
+
+.ele-1{
+    width:300px;
+    height: 300px;
+    background:purple;
+}
+.ele-1:hover{
+    background:yellow;
+}
+
+.text-holder p:first-child{
+    color:var(--blue);
+}
+.text-holder p:last-child{
+    color:orange;
+}
+.text-holder p:nth-child(2){
+    color:var(--red);
+}
+.ele-2::placeholder{
+    color:brown;
+}
+h1::before{
+    content:"Hi ";
+}
+h1::after{
+    content:" How are you?";
+}
+
+.transition{
+    width:300px;
+    height:300px;
+    background:purple;
+    transition-duration:0.4s;
+    /* transition-delay:3s; */
+    /* transition-property:width; */
+    /* default values is all just keep it as all */
+    /* transition-timing-function:ease-in; */
+    /* transition-timing-function:ease-out; */
+    /* transition-timing-function:ease-in-out; */
+    /* transition-timing-function:linear; */
+    transition-timing-function:cubic-bezier(.74,.86,1,-0.53);
+}
+
+.transition:hover{
+    width:600px;
+    background:orangered;
+}
+
+.transform{
+    width:300px;
+    height:300px;
+    background:orange;
+    /* transform:translate(300px,500px); */
+    /* 300=left 500=top */
+    /* transform:scale(2); */
+    /* transform:skew(-20deg); */
+    /* transform: rotatey(45deg); */
+    transition:0.4s;
+    transition-timing-function:cubic-bezier(.74,.86,1,-0.53);
+}
+
+.transform:hover{
+    transform: rotate(360deg);
+}

@@ -1,0 +1,28 @@
+/* .text-box {
+  color: red;
+} */
+
+.text-box p:first-child {
+  color: red;
+}
+.text-box p:nth-child(2) {
+  color: blue;
+}
+.text-box p:last-child {
+  color: pink;
+}
+.box {
+  height: 300px;
+  width: 300px;
+  background-color: brown;
+}
+.box:hover {
+  background-color: aqua;
+}
+.user-name:hover {
+  /* color: white;
+  background-color: black; */
+  display: inline-block;
+  cursor: pointer;
+  font-size: 40px;
+}
