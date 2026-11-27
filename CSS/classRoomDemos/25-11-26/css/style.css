@@ -1,0 +1,45 @@
+.red{
+    background:red;
+}
+
+.col-12:nth-child(1){
+    background:red;
+}
+.col-12:nth-child(2){
+    background:blue;
+}
+.col-12:nth-child(3){
+    background:green;
+}
+.col-12:nth-child(4){
+    background:orange;
+}
+.col-12:nth-child(5){
+    background:purple;
+}
+.col-12:nth-child(6){
+    background:pink;
+}
+
+
+
+
+
+.col:nth-child(1){
+    background:red;
+}
+.col:nth-child(2){
+    background:blue;
+}
+.col:nth-child(3){
+    background:green;
+}
+.col:nth-child(4){
+    background:orange;
+}
+.col:nth-child(5){
+    background:purple;
+}
+.col:nth-child(6){
+    background:pink;
+}
